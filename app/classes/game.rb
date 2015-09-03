@@ -52,7 +52,6 @@ class Game
     locations_coordinates = response.split.map do |coordinate_string|
       coordinates = coordinate_string.gsub("(", "").gsub(")", "").split(",").map(&:to_i)
     end
-    binding.pry
     locations_coordinates
   end
 
