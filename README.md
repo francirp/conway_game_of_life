@@ -1,1 +1,6 @@
-# conway_game_of_life
+Conway Game of Life
+===
+
+```
+ruby app.rb
+```
